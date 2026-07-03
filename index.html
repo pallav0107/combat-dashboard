@@ -54,11 +54,20 @@ fetch('combat_state.json?_='+Date.now()).then(r=>r.json()).then(d=>{
   const A=d.allocation||{}; const mx=Math.max(...Object.values(A),0.01);
   document.getElementById('alloc').innerHTML=Object.entries(A).sort((a,b)=>b[1]-a[1])
     .map(([f,w])=>`<div style="display:flex;align-items:center;gap:10px;margin:6px 0"><div style="width:80px;font-size:13px">${f}</div><div class="bar" style="flex:1"><span style="width:${(w/mx*100)}%"></span></div><div style="width:44px;text-align:right;font-size:13px;color:var(--dim)">${(w*100).toFixed(0)}%</div></div>`).join('')||'<span style="color:var(--dim)">all cash</span>';
-  const P=d.positions||[];
-  document.getElementById('positions').innerHTML=P.length?`<table><tr><th>Symbol</th><th class="num">Value</th><th class="num">P&L</th></tr>${P.sort((a,b)=>b.value-a.value).map(p=>`<tr><td>${p.symbol}</td><td class="num">${money(p.value)}</td><td class="num ${p.pl_pct>=0?'pos':'neg'}">${pct(p.pl_pct)}</td></tr>`).join('')}</table>`:'<span style="color:var(--dim)">No positions yet (dry-run — nothing placed).</span>';
-  const R=d.roster||[];
-  document.getElementById('roster').innerHTML=`<table><tr><th>Fighter</th><th>Style</th><th>Best in</th></tr>${R.map(f=>`<tr><td><b>${f.fighter}</b></td><td style="color:var(--dim)">${f.style}</td><td>${f.best_regime}</td></tr>`).join('')}</table>`;
-  document.getElementById('foot').textContent='Updated '+(d.updated||'').replace('T',' ').slice(0,16)+' UTC · paper/dry-run · not investment advice';
+  const P=d.positions||[], PO=d.pending_orders||[];
+  let posHTML;
+  if(P.length){
+    posHTML=`<table><tr><th>Symbol</th><th class="num">Value</th><th class="num">P&L</th></tr>${P.sort((a,b)=>b.value-a.value).map(p=>`<tr><td>${p.symbol}</td><td class="num">${money(p.value)}</td><td class="num ${p.pl_pct>=0?'pos':'neg'}">${pct(p.pl_pct)}</td></tr>`).join('')}</table>`;
+  }else if(PO.length){
+    posHTML=`<div style="color:var(--acc);margin-bottom:10px">⏳ ${PO.length} orders placed — waiting for market open to fill${d.next_open?' ('+d.next_open.replace('T',' ').slice(0,16)+' ET)':''}.</div><table><tr><th>Symbol</th><th>Side</th><th class="num">Notional</th></tr>${PO.sort((a,b)=>b.notional-a.notional).map(o=>`<tr><td>${o.symbol}</td><td>${o.side}</td><td class="num">${money(o.notional)}</td></tr>`).join('')}</table>`;
+  }else{
+    posHTML=`<span style="color:var(--dim)">${d.mode==='DRY_RUN'?'Dry-run — no orders placed.':'No positions.'}</span>`;
+  }
+  document.getElementById('positions').innerHTML=posHTML;
+  const R=d.roster||[], parked=new Set(d.parked||[]);
+  document.getElementById('roster').innerHTML=`<table><tr><th>Fighter</th><th>Style</th><th>Best in</th></tr>${R.map(f=>`<tr><td><b>${f.fighter}</b>${parked.has(f.fighter)?' <span style="color:var(--dim);font-size:11px">(parked · phase 2)</span>':''}</td><td style="color:var(--dim)">${f.style}</td><td>${f.best_regime}</td></tr>`).join('')}</table>`;
+  const modelbl=d.mode==='DRY_RUN'?'paper · dry-run':'paper · LIVE (no real money)';
+  document.getElementById('foot').textContent='Updated '+(d.updated||'').replace('T',' ').slice(0,16)+' UTC · '+modelbl+' · not investment advice';
 }).catch(e=>{document.getElementById('foot').textContent='could not load state: '+e});
 </script>
 </body>

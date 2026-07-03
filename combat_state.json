@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-03T13:58:23.924549+00:00",
-  "mode": "LIVE-PAPER",
+  "updated": "2026-07-03T14:06:51.332649+00:00",
+  "mode": "DRY_RUN",
   "equity": 100000.0,
   "cash": 100000.0,
   "invested": 0.0,
@@ -18,7 +18,106 @@
     "rev3": 0.118,
     "boll": 0.098
   },
+  "market_open": false,
+  "next_open": "2026-07-06T09:30:00-04:00",
+  "parked": [
+    "ripper",
+    "moonshot",
+    "bunker"
+  ],
   "positions": [],
+  "pending_orders": [
+    {
+      "symbol": "XOP",
+      "side": "buy",
+      "notional": 1162.79
+    },
+    {
+      "symbol": "XLK",
+      "side": "buy",
+      "notional": 3100.78
+    },
+    {
+      "symbol": "XLI",
+      "side": "buy",
+      "notional": 2713.18
+    },
+    {
+      "symbol": "XLF",
+      "side": "buy",
+      "notional": 2713.18
+    },
+    {
+      "symbol": "XLE",
+      "side": "buy",
+      "notional": 3875.97
+    },
+    {
+      "symbol": "VNQ",
+      "side": "buy",
+      "notional": 1937.98
+    },
+    {
+      "symbol": "UUP",
+      "side": "buy",
+      "notional": 4443.99
+    },
+    {
+      "symbol": "UNG",
+      "side": "buy",
+      "notional": 1937.98
+    },
+    {
+      "symbol": "TLT",
+      "side": "buy",
+      "notional": 3375.11
+    },
+    {
+      "symbol": "SPY",
+      "side": "buy",
+      "notional": 1307.84
+    },
+    {
+      "symbol": "QQQ",
+      "side": "buy",
+      "notional": 921.35
+    },
+    {
+      "symbol": "LQD",
+      "side": "buy",
+      "notional": 742.14
+    },
+    {
+      "symbol": "IEF",
+      "side": "buy",
+      "notional": 1937.98
+    },
+    {
+      "symbol": "HYG",
+      "side": "buy",
+      "notional": 4166.9
+    },
+    {
+      "symbol": "GLD",
+      "side": "buy",
+      "notional": 535.6
+    },
+    {
+      "symbol": "EMB",
+      "side": "buy",
+      "notional": 605.54
+    },
+    {
+      "symbol": "EFA",
+      "side": "buy",
+      "notional": 1937.98
+    },
+    {
+      "symbol": "DBC",
+      "side": "buy",
+      "notional": 608.11
+    }
+  ],
   "roster": [
     {
       "fighter": "ripper",

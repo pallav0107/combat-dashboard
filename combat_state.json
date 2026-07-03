@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T14:36:16.719177+00:00",
+  "updated": "2026-07-03T14:40:14.228399+00:00",
   "mode": "LIVE-PAPER",
   "equity": 100000.0,
   "cash": 100000.0,
@@ -27,6 +27,31 @@
   ],
   "positions": [],
   "pending_orders": [
+    {
+      "symbol": "QQQ260807C00754000",
+      "side": "buy",
+      "notional": 0.0
+    },
+    {
+      "symbol": "SPY260807P00715000",
+      "side": "buy",
+      "notional": 0.0
+    },
+    {
+      "symbol": "AMZN260807C00270000",
+      "side": "buy",
+      "notional": 0.0
+    },
+    {
+      "symbol": "AAPL260807C00330000",
+      "side": "buy",
+      "notional": 0.0
+    },
+    {
+      "symbol": "GOOGL260807C00395000",
+      "side": "buy",
+      "notional": 0.0
+    },
     {
       "symbol": "XOP",
       "side": "buy",
@@ -105,7 +130,7 @@
     {
       "symbol": "HYG",
       "side": "buy",
-      "notional": 3136.76
+      "notional": 3136.77
     },
     {
       "symbol": "EMB",

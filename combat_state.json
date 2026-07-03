@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T14:08:30.263794+00:00",
+  "updated": "2026-07-03T14:36:16.719177+00:00",
   "mode": "LIVE-PAPER",
   "equity": 100000.0,
   "cash": 100000.0,
@@ -30,12 +30,12 @@
     {
       "symbol": "XOP",
       "side": "buy",
-      "notional": 4901.96
+      "notional": 2450.98
     },
     {
       "symbol": "XLK",
       "side": "buy",
-      "notional": 3790.85
+      "notional": 3594.77
     },
     {
       "symbol": "XLI",
@@ -46,6 +46,11 @@
       "symbol": "XLF",
       "side": "buy",
       "notional": 2614.38
+    },
+    {
+      "symbol": "XLE",
+      "side": "buy",
+      "notional": 9313.73
     },
     {
       "symbol": "VNQ",
@@ -70,17 +75,17 @@
     {
       "symbol": "SPY",
       "side": "buy",
-      "notional": 1486.83
+      "notional": 1290.75
     },
     {
       "symbol": "SMH",
       "side": "buy",
-      "notional": 1176.47
+      "notional": 980.39
     },
     {
       "symbol": "QQQ",
       "side": "buy",
-      "notional": 1356.48
+      "notional": 1160.4
     },
     {
       "symbol": "LQD",
@@ -90,7 +95,7 @@
     {
       "symbol": "IWM",
       "side": "buy",
-      "notional": 1176.47
+      "notional": 980.39
     },
     {
       "symbol": "IEF",
@@ -100,7 +105,7 @@
     {
       "symbol": "HYG",
       "side": "buy",
-      "notional": 3136.77
+      "notional": 3136.76
     },
     {
       "symbol": "EMB",

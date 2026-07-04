@@ -1,198 +1,70 @@
 {
-  "updated": "2026-07-04T08:36:32.355332+00:00",
+  "updated": "2026-07-04T11:32:17.880926+00:00",
   "mode": "LIVE-PAPER",
   "equity": 100000.0,
   "cash": 100000.0,
   "invested": 0.0,
   "day_pl": 0.0,
   "notional": 75000.0,
-  "regime": "BULL_CALM",
-  "allocation": {
-    "ripper": 0.196,
-    "moonshot": 0.059,
-    "trend": 0.078,
-    "reverter": 0.118,
-    "carry": 0.098,
-    "xtrend50": 0.078,
-    "xsec63": 0.157,
-    "rev3": 0.118,
-    "boll": 0.098
-  },
+  "regime_label": "CALM UPTREND",
+  "regime_note": "Low volatility, steady advance.",
+  "regime_color": "#2ea043",
+  "vix": 16.1,
   "market_open": false,
   "next_open": "2026-07-06T09:30:00-04:00",
-  "parked": [
-    "ripper",
-    "moonshot",
-    "bunker"
-  ],
+  "posture": {
+    "Rotation": 0.261,
+    "Reversion": 0.26,
+    "Offense": 0.217,
+    "Income": 0.109,
+    "Momentum": 0.087,
+    "Defense": 0.065
+  },
   "positions": [],
-  "pending_orders": [
-    {
-      "symbol": "QQQ260807C00754000",
-      "side": "buy",
-      "notional": 0.0
-    },
-    {
-      "symbol": "SPY260807P00715000",
-      "side": "buy",
-      "notional": 0.0
-    },
-    {
-      "symbol": "AMZN260807C00270000",
-      "side": "buy",
-      "notional": 0.0
-    },
-    {
-      "symbol": "AAPL260807C00330000",
-      "side": "buy",
-      "notional": 0.0
-    },
-    {
-      "symbol": "GOOGL260807C00395000",
-      "side": "buy",
-      "notional": 0.0
-    },
-    {
-      "symbol": "XOP",
-      "side": "buy",
-      "notional": 3676.47
-    },
-    {
-      "symbol": "XLK",
-      "side": "buy",
-      "notional": 5392.16
-    },
-    {
-      "symbol": "XLI",
-      "side": "buy",
-      "notional": 3921.57
-    },
-    {
-      "symbol": "XLF",
-      "side": "buy",
-      "notional": 3921.57
-    },
-    {
-      "symbol": "XLE",
-      "side": "buy",
-      "notional": 13970.59
-    },
-    {
-      "symbol": "VNQ",
-      "side": "buy",
-      "notional": 980.39
-    },
-    {
-      "symbol": "UUP",
-      "side": "buy",
-      "notional": 2248.14
-    },
-    {
-      "symbol": "UNG",
-      "side": "buy",
-      "notional": 980.39
-    },
-    {
-      "symbol": "TLT",
-      "side": "buy",
-      "notional": 1705.35
-    },
-    {
-      "symbol": "SPY",
-      "side": "buy",
-      "notional": 1936.12
-    },
-    {
-      "symbol": "SMH",
-      "side": "buy",
-      "notional": 1470.59
-    },
-    {
-      "symbol": "QQQ",
-      "side": "buy",
-      "notional": 1740.61
-    },
-    {
-      "symbol": "LQD",
-      "side": "buy",
-      "notional": 2378.36
-    },
-    {
-      "symbol": "IWM",
-      "side": "buy",
-      "notional": 1470.59
-    },
-    {
-      "symbol": "IEF",
-      "side": "buy",
-      "notional": 980.39
-    },
-    {
-      "symbol": "HYG",
-      "side": "buy",
-      "notional": 4576.54
-    },
-    {
-      "symbol": "EMB",
-      "side": "buy",
-      "notional": 1941.06
-    },
-    {
-      "symbol": "EFA",
-      "side": "buy",
-      "notional": 980.39
-    }
-  ],
+  "pending": {
+    "count": 23,
+    "notional": 54271
+  },
   "roster": [
     {
-      "fighter": "ripper",
-      "style": "calls-only, trend-gated \u2014 offense in risk-on uptrends",
-      "best_regime": "BULL_CALM"
+      "callsign": "Striker",
+      "role": "Offense",
+      "status": "Phase 2"
     },
     {
-      "fighter": "moonshot",
-      "style": "all-weather w/ put-tail \u2014 defense that pays in a crash",
-      "best_regime": "RISK_OFF"
+      "callsign": "Aegis",
+      "role": "Defense",
+      "status": "Phase 2"
     },
     {
-      "fighter": "trend",
-      "style": "cross-asset time-series momentum \u2014 thrives in strong directional trends",
-      "best_regime": "TRENDING"
+      "callsign": "Nomad",
+      "role": "Momentum",
+      "status": "Active"
     },
     {
-      "fighter": "reverter",
-      "style": "RSI-2 buy-the-dip mean reversion (bot archive) \u2014 fades extremes, fights daily",
-      "best_regime": "CHOP"
+      "callsign": "Coil",
+      "role": "Reversion",
+      "status": "Active"
     },
     {
-      "fighter": "carry",
-      "style": "long-only income basket (HY+EM+IG credit) \u2014 grinds yield in calm/choppy tape",
-      "best_regime": "CHOP"
+      "callsign": "Ledger",
+      "role": "Income",
+      "status": "Active"
     },
     {
-      "fighter": "xtrend50",
-      "style": "single-asset 50d trend across gold/bonds/oil/FX/EM \u2014 orthogonal trend engine",
-      "best_regime": "TRENDING"
+      "callsign": "Rotor",
+      "role": "Rotation",
+      "status": "Active"
     },
     {
-      "fighter": "xsec63",
-      "style": "sector rotation \u2014 holds the top-3 sectors by 3-month momentum",
-      "best_regime": "BULL_CALM"
+      "callsign": "Spring",
+      "role": "Reversion",
+      "status": "Active"
     },
     {
-      "fighter": "rev3",
-      "style": "RSI-3 aggressive dip-buy mean reversion \u2014 choppy-market specialist",
-      "best_regime": "CHOP"
-    },
-    {
-      "fighter": "boll",
-      "style": "Bollinger-band reversion \u2014 buys 2-sigma dips, exits at the mean",
-      "best_regime": "CHOP"
-    },
-    {
-      "fighter": "bunker",
-      "style": "cash / minimal exposure \u2014 preserves capital when nothing has an edge",
-      "best_regime": "RISK_OFF"
+      "callsign": "Reserve",
+      "role": "Reserve",
+      "status": "Reserve"
     }
   ]
 }

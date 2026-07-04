@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T12:53:13.403279+00:00",
+  "updated": "2026-07-04T12:57:52.977109+00:00",
   "mode": "LIVE-PAPER",
   "equity": 100000.0,
   "cash": 100000.0,
@@ -13,12 +13,12 @@
   "market_open": false,
   "next_open": "2026-07-06T09:30:00-04:00",
   "posture": {
-    "Rotation": 0.261,
-    "Reversion": 0.26,
-    "Offense": 0.217,
-    "Income": 0.109,
-    "Momentum": 0.087,
-    "Defense": 0.065
+    "Rotation": 0.3,
+    "Offense": 0.25,
+    "Reversion": 0.15,
+    "Income": 0.125,
+    "Momentum": 0.1,
+    "Defense": 0.075
   },
   "positions": [],
   "holdings": [],
@@ -172,11 +172,6 @@
     {
       "callsign": "Rotor",
       "role": "Rotation",
-      "status": "Active"
-    },
-    {
-      "callsign": "Spring",
-      "role": "Reversion",
       "status": "Active"
     },
     {

@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-03T14:40:14.228399+00:00",
+  "updated": "2026-07-04T08:36:32.355332+00:00",
   "mode": "LIVE-PAPER",
   "equity": 100000.0,
   "cash": 100000.0,
   "invested": 0.0,
   "day_pl": 0.0,
-  "notional": 50000.0,
+  "notional": 75000.0,
   "regime": "BULL_CALM",
   "allocation": {
     "ripper": 0.196,
@@ -55,92 +55,92 @@
     {
       "symbol": "XOP",
       "side": "buy",
-      "notional": 2450.98
+      "notional": 3676.47
     },
     {
       "symbol": "XLK",
       "side": "buy",
-      "notional": 3594.77
+      "notional": 5392.16
     },
     {
       "symbol": "XLI",
       "side": "buy",
-      "notional": 2614.38
+      "notional": 3921.57
     },
     {
       "symbol": "XLF",
       "side": "buy",
-      "notional": 2614.38
+      "notional": 3921.57
     },
     {
       "symbol": "XLE",
       "side": "buy",
-      "notional": 9313.73
+      "notional": 13970.59
     },
     {
       "symbol": "VNQ",
       "side": "buy",
-      "notional": 653.59
+      "notional": 980.39
     },
     {
       "symbol": "UUP",
       "side": "buy",
-      "notional": 1498.76
+      "notional": 2248.14
     },
     {
       "symbol": "UNG",
       "side": "buy",
-      "notional": 653.59
+      "notional": 980.39
     },
     {
       "symbol": "TLT",
       "side": "buy",
-      "notional": 1138.27
+      "notional": 1705.35
     },
     {
       "symbol": "SPY",
       "side": "buy",
-      "notional": 1290.75
+      "notional": 1936.12
     },
     {
       "symbol": "SMH",
       "side": "buy",
-      "notional": 980.39
+      "notional": 1470.59
     },
     {
       "symbol": "QQQ",
       "side": "buy",
-      "notional": 1160.4
+      "notional": 1740.61
     },
     {
       "symbol": "LQD",
       "side": "buy",
-      "notional": 1564.31
+      "notional": 2378.36
     },
     {
       "symbol": "IWM",
       "side": "buy",
-      "notional": 980.39
+      "notional": 1470.59
     },
     {
       "symbol": "IEF",
       "side": "buy",
-      "notional": 653.59
+      "notional": 980.39
     },
     {
       "symbol": "HYG",
       "side": "buy",
-      "notional": 3136.77
+      "notional": 4576.54
     },
     {
       "symbol": "EMB",
       "side": "buy",
-      "notional": 1276.39
+      "notional": 1941.06
     },
     {
       "symbol": "EFA",
       "side": "buy",
-      "notional": 653.59
+      "notional": 980.39
     }
   ],
   "roster": [

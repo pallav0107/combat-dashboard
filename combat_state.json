@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T12:57:52.977109+00:00",
+  "updated": "2026-07-05T00:41:32.414069+00:00",
   "mode": "LIVE-PAPER",
   "equity": 100000.0,
   "cash": 100000.0,
@@ -179,97 +179,5 @@
       "role": "Reserve",
       "status": "Reserve"
     }
-  ],
-  "track_record": {
-    "basis": "Backtest \u00b7 $20,000 \u00b7 2015-2026 \u00b7 delta-one arena vs SPY buy-hold",
-    "arena": {
-      "cagr": 14.9,
-      "maxdd": -7.0,
-      "final": 107051,
-      "mult": 5.4,
-      "downYears": 0
-    },
-    "spy": {
-      "cagr": 13.8,
-      "maxdd": -33.7,
-      "final": 94892,
-      "mult": 4.7,
-      "downYears": 3
-    },
-    "rows": [
-      [
-        2015,
-        6.6,
-        -3.1,
-        1.2
-      ],
-      [
-        2016,
-        16.1,
-        -3.3,
-        12.0
-      ],
-      [
-        2017,
-        12.2,
-        -2.0,
-        21.7
-      ],
-      [
-        2018,
-        6.2,
-        -5.6,
-        -4.6
-      ],
-      [
-        2019,
-        19.7,
-        -3.1,
-        31.2
-      ],
-      [
-        2020,
-        21.0,
-        -5.3,
-        18.3
-      ],
-      [
-        2021,
-        22.5,
-        -2.8,
-        28.7
-      ],
-      [
-        2022,
-        9.0,
-        -3.6,
-        -18.2
-      ],
-      [
-        2023,
-        11.5,
-        -6.6,
-        26.2
-      ],
-      [
-        2024,
-        14.1,
-        -4.5,
-        24.9
-      ],
-      [
-        2025,
-        16.0,
-        -2.5,
-        17.7
-      ],
-      [
-        2026,
-        14.9,
-        -2.3,
-        9.8
-      ]
-    ],
-    "note": "Backtest of the current config; core fighters walk-forward validated. Live results run ~2-3 pts lower after slippage. Arena lags in blow-off bull years, wins by not losing."
-  }
+  ]
 }

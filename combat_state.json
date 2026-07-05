@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-05T00:41:32.414069+00:00",
-  "mode": "LIVE-PAPER",
+  "updated": "2026-07-05T06:16:59.795756+00:00",
+  "mode": "DRY_RUN",
   "equity": 100000.0,
   "cash": 100000.0,
   "invested": 0.0,
   "day_pl": 0.0,
-  "notional": 75000.0,
+  "notional": 100000.0,
   "regime_label": "CALM UPTREND",
   "regime_note": "Low volatility, steady advance.",
   "regime_color": "#2ea043",
@@ -13,12 +13,10 @@
   "market_open": false,
   "next_open": "2026-07-06T09:30:00-04:00",
   "posture": {
-    "Rotation": 0.3,
-    "Offense": 0.25,
-    "Reversion": 0.15,
-    "Income": 0.125,
-    "Momentum": 0.1,
-    "Defense": 0.075
+    "Core \u00b7 Growth": 0.385,
+    "Satellite \u00b7 Fighters": 0.3,
+    "Core \u00b7 Bonds": 0.175,
+    "Core \u00b7 Gold": 0.14
   },
   "positions": [],
   "holdings": [],

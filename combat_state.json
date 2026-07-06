@@ -1,17 +1,17 @@
 {
-  "updated": "2026-07-05T06:16:59.795756+00:00",
-  "mode": "DRY_RUN",
-  "equity": 100000.0,
-  "cash": 100000.0,
+  "updated": "2026-07-06T21:00:52.554144+00:00",
+  "mode": "LIVE-PAPER",
+  "equity": 98635.29,
+  "cash": 98635.29,
   "invested": 0.0,
-  "day_pl": 0.0,
-  "notional": 100000.0,
-  "regime_label": "CALM UPTREND",
-  "regime_note": "Low volatility, steady advance.",
-  "regime_color": "#2ea043",
-  "vix": 16.1,
+  "day_pl": -1364.7100000000064,
+  "notional": 98635.29,
+  "regime_label": "TRENDING",
+  "regime_note": "Strong directional momentum.",
+  "regime_color": "#58a6ff",
+  "vix": 15.6,
   "market_open": false,
-  "next_open": "2026-07-06T09:30:00-04:00",
+  "next_open": "2026-07-07T09:30:00-04:00",
   "posture": {
     "Core \u00b7 Growth": 0.385,
     "Satellite \u00b7 Fighters": 0.3,
@@ -21,123 +21,43 @@
   "positions": [],
   "holdings": [],
   "pending": {
-    "count": 23,
-    "notional": 54271,
+    "count": 7,
+    "notional": 92451,
     "orders": [
-      {
-        "symbol": "XLE",
-        "side": "buy",
-        "notional": 13971
-      },
-      {
-        "symbol": "XLK",
-        "side": "buy",
-        "notional": 5392
-      },
-      {
-        "symbol": "HYG",
-        "side": "buy",
-        "notional": 4577
-      },
-      {
-        "symbol": "XLI",
-        "side": "buy",
-        "notional": 3922
-      },
-      {
-        "symbol": "XLF",
-        "side": "buy",
-        "notional": 3922
-      },
-      {
-        "symbol": "XOP",
-        "side": "buy",
-        "notional": 3676
-      },
-      {
-        "symbol": "LQD",
-        "side": "buy",
-        "notional": 2378
-      },
-      {
-        "symbol": "UUP",
-        "side": "buy",
-        "notional": 2248
-      },
-      {
-        "symbol": "EMB",
-        "side": "buy",
-        "notional": 1941
-      },
       {
         "symbol": "SPY",
         "side": "buy",
-        "notional": 1936
-      },
-      {
-        "symbol": "QQQ",
-        "side": "buy",
-        "notional": 1741
-      },
-      {
-        "symbol": "TLT",
-        "side": "buy",
-        "notional": 1705
-      },
-      {
-        "symbol": "SMH",
-        "side": "buy",
-        "notional": 1471
-      },
-      {
-        "symbol": "IWM",
-        "side": "buy",
-        "notional": 1471
-      },
-      {
-        "symbol": "VNQ",
-        "side": "buy",
-        "notional": 980
-      },
-      {
-        "symbol": "UNG",
-        "side": "buy",
-        "notional": 980
+        "notional": 44121
       },
       {
         "symbol": "IEF",
         "side": "buy",
-        "notional": 980
+        "notional": 19727
       },
       {
-        "symbol": "EFA",
+        "symbol": "GLD",
         "side": "buy",
-        "notional": 980
+        "notional": 16177
       },
       {
-        "symbol": "QQQ260807C00754000",
+        "symbol": "XLK",
         "side": "buy",
-        "notional": 0
+        "notional": 3355
       },
       {
-        "symbol": "SPY260807P00715000",
+        "symbol": "HYG",
         "side": "buy",
-        "notional": 0
+        "notional": 3050
       },
       {
-        "symbol": "AMZN260807C00270000",
+        "symbol": "XLI",
         "side": "buy",
-        "notional": 0
+        "notional": 3011
       },
       {
-        "symbol": "AAPL260807C00330000",
+        "symbol": "XLF",
         "side": "buy",
-        "notional": 0
-      },
-      {
-        "symbol": "GOOGL260807C00395000",
-        "side": "buy",
-        "notional": 0
+        "notional": 3011
       }
     ]
   },
@@ -148,9 +68,9 @@
       "status": "Phase 2"
     },
     {
-      "callsign": "Aegis",
-      "role": "Defense",
-      "status": "Phase 2"
+      "callsign": "Reverse_Ripper",
+      "role": "\u2014",
+      "status": "Active"
     },
     {
       "callsign": "Nomad",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T21:00:52.554144+00:00",
+  "updated": "2026-07-07T09:22:55.943768+00:00",
   "mode": "LIVE-PAPER",
   "equity": 98635.29,
   "cash": 98635.29,
@@ -13,10 +13,10 @@
   "market_open": false,
   "next_open": "2026-07-07T09:30:00-04:00",
   "posture": {
-    "Core \u00b7 Growth": 0.385,
-    "Satellite \u00b7 Fighters": 0.3,
-    "Core \u00b7 Bonds": 0.175,
-    "Core \u00b7 Gold": 0.14
+    "Core \u00b7 Growth": 0.44,
+    "Satellite \u00b7 Fighters": 0.2,
+    "Core \u00b7 Bonds": 0.2,
+    "Core \u00b7 Gold": 0.16
   },
   "positions": [],
   "holdings": [],
@@ -68,9 +68,9 @@
       "status": "Phase 2"
     },
     {
-      "callsign": "Reverse_Ripper",
-      "role": "\u2014",
-      "status": "Active"
+      "callsign": "Aegis",
+      "role": "Defense",
+      "status": "Phase 2"
     },
     {
       "callsign": "Nomad",
@@ -97,5 +97,7 @@
       "role": "Reserve",
       "status": "Reserve"
     }
-  ]
+  ],
+  "engine_build": "v1.7",
+  "self_tuning": true
 }

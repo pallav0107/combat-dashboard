@@ -1,63 +1,137 @@
 {
-  "updated": "2026-07-07T09:22:55.943768+00:00",
+  "updated": "2026-07-07T14:16:26.417226+00:00",
   "mode": "LIVE-PAPER",
-  "equity": 98635.29,
-  "cash": 98635.29,
-  "invested": 0.0,
-  "day_pl": -1364.7100000000064,
-  "notional": 98635.29,
+  "equity": 98128.53,
+  "cash": 1215.33,
+  "invested": 96913.2,
+  "day_pl": -1871.4700000000012,
+  "notional": 98199.24,
   "regime_label": "TRENDING",
   "regime_note": "Strong directional momentum.",
   "regime_color": "#58a6ff",
-  "vix": 15.6,
-  "market_open": false,
-  "next_open": "2026-07-07T09:30:00-04:00",
+  "vix": 16.0,
+  "market_open": true,
+  "next_open": "2026-07-08T09:30:00-04:00",
   "posture": {
-    "Core \u00b7 Growth": 0.44,
-    "Satellite \u00b7 Fighters": 0.2,
-    "Core \u00b7 Bonds": 0.2,
-    "Core \u00b7 Gold": 0.16
+    "Core \u00b7 Growth": 0.5,
+    "Satellite \u00b7 Fighters": 0.1,
+    "Core \u00b7 Bonds": 0.23,
+    "Core \u00b7 Gold": 0.18
   },
-  "positions": [],
-  "holdings": [],
+  "positions": [
+    {
+      "class": "Equity index",
+      "value": 48989,
+      "count": 1,
+      "pl_pct": -0.4
+    },
+    {
+      "class": "Bonds & credit",
+      "value": 25140,
+      "count": 2,
+      "pl_pct": -0.1
+    },
+    {
+      "class": "Commodities",
+      "value": 16112,
+      "count": 1,
+      "pl_pct": -0.4
+    },
+    {
+      "class": "Sectors",
+      "value": 6335,
+      "count": 3,
+      "pl_pct": -0.5
+    },
+    {
+      "class": "Other",
+      "value": 346,
+      "count": 5,
+      "pl_pct": -14.2
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "SPY",
+      "value": 48989,
+      "pl_pct": -0.4,
+      "class": "Equity index"
+    },
+    {
+      "symbol": "IEF",
+      "value": 22094,
+      "pl_pct": -0.1,
+      "class": "Bonds & credit"
+    },
+    {
+      "symbol": "GLD",
+      "value": 16112,
+      "pl_pct": -0.4,
+      "class": "Commodities"
+    },
+    {
+      "symbol": "XLK",
+      "value": 3320,
+      "pl_pct": -1.0,
+      "class": "Sectors"
+    },
+    {
+      "symbol": "HYG",
+      "value": 3046,
+      "pl_pct": -0.1,
+      "class": "Bonds & credit"
+    },
+    {
+      "symbol": "XLF",
+      "value": 3014,
+      "pl_pct": 0.1,
+      "class": "Sectors"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 100,
+      "pl_pct": -23.1,
+      "class": "Options"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 95,
+      "pl_pct": -7.8,
+      "class": "Options"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 80,
+      "pl_pct": -7.0,
+      "class": "Options"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 61,
+      "pl_pct": -7.6,
+      "class": "Options"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 10,
+      "pl_pct": -83.9,
+      "class": "Options"
+    },
+    {
+      "symbol": "XLI",
+      "value": 0,
+      "pl_pct": -1.8,
+      "class": "Sectors"
+    }
+  ],
   "pending": {
-    "count": 7,
-    "notional": 92451,
+    "count": 1,
+    "notional": 0,
     "orders": [
       {
-        "symbol": "SPY",
+        "symbol": "Options \u00b7 protected",
         "side": "buy",
-        "notional": 44121
-      },
-      {
-        "symbol": "IEF",
-        "side": "buy",
-        "notional": 19727
-      },
-      {
-        "symbol": "GLD",
-        "side": "buy",
-        "notional": 16177
-      },
-      {
-        "symbol": "XLK",
-        "side": "buy",
-        "notional": 3355
-      },
-      {
-        "symbol": "HYG",
-        "side": "buy",
-        "notional": 3050
-      },
-      {
-        "symbol": "XLI",
-        "side": "buy",
-        "notional": 3011
-      },
-      {
-        "symbol": "XLF",
-        "side": "buy",
-        "notional": 3011
+        "notional": 0
       }
     ]
   },
@@ -98,6 +172,6 @@
       "status": "Reserve"
     }
   ],
-  "engine_build": "v1.7",
+  "engine_build": "v1.18",
   "self_tuning": true
 }

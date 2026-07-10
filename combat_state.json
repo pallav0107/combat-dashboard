@@ -1,17 +1,17 @@
 {
-  "updated": "2026-07-09T21:00:40.304896+00:00",
+  "updated": "2026-07-10T21:00:23.943118+00:00",
   "mode": "LIVE-PAPER",
-  "equity": 98247.75,
-  "cash": 1065.19,
-  "invested": 97182.56,
-  "day_pl": 577.9781157010148,
-  "notional": 98242.49,
+  "equity": 98356.14,
+  "cash": 2955.81,
+  "invested": 95400.33,
+  "day_pl": 4.243443576589925,
+  "notional": 98356.14,
   "regime_label": "CALM UPTREND",
   "regime_note": "Low volatility, steady advance.",
   "regime_color": "#2ea043",
-  "vix": 16.9,
+  "vix": 15.0,
   "market_open": false,
-  "next_open": "2026-07-10T09:30:00-04:00",
+  "next_open": "2026-07-13T09:30:00-04:00",
   "posture": {
     "Core \u00b7 Growth": 0.5,
     "Satellite \u00b7 Fighters": 0.1,
@@ -21,106 +21,118 @@
   "positions": [
     {
       "class": "Equity index",
-      "value": 49291,
+      "value": 49536,
       "count": 1,
-      "pl_pct": 0.2
+      "pl_pct": 0.7
     },
     {
       "class": "Bonds & credit",
-      "value": 25090,
+      "value": 25083,
       "count": 2,
       "pl_pct": -0.3
     },
     {
       "class": "Commodities",
-      "value": 15997,
+      "value": 15957,
       "count": 1,
-      "pl_pct": -1.1
+      "pl_pct": -1.4
     },
     {
       "class": "Sectors",
-      "value": 6438,
+      "value": 4458,
       "count": 3,
-      "pl_pct": 1.2
+      "pl_pct": 0.4
     },
     {
       "class": "Other",
       "value": 366,
-      "count": 10,
-      "pl_pct": -23.5
+      "count": 13,
+      "pl_pct": -32.6
     }
   ],
   "holdings": [
     {
       "symbol": "SPY",
-      "value": 49291,
-      "pl_pct": 0.2,
+      "value": 49536,
+      "pl_pct": 0.7,
       "class": "Equity index"
     },
     {
       "symbol": "IEF",
-      "value": 22044,
+      "value": 22040,
       "pl_pct": -0.3,
       "class": "Bonds & credit"
     },
     {
       "symbol": "GLD",
-      "value": 15997,
-      "pl_pct": -1.1,
+      "value": 15957,
+      "pl_pct": -1.4,
       "class": "Commodities"
     },
     {
-      "symbol": "XLK",
-      "value": 3468,
-      "pl_pct": 3.4,
-      "class": "Sectors"
-    },
-    {
       "symbol": "HYG",
-      "value": 3046,
-      "pl_pct": -0.1,
+      "value": 3044,
+      "pl_pct": -0.2,
       "class": "Bonds & credit"
     },
     {
       "symbol": "XLF",
-      "value": 2969,
-      "pl_pct": -1.4,
+      "value": 2974,
+      "pl_pct": -1.2,
+      "class": "Sectors"
+    },
+    {
+      "symbol": "XLK",
+      "value": 1483,
+      "pl_pct": 3.7,
       "class": "Sectors"
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 117,
-      "pl_pct": -10.0,
+      "value": 100,
+      "pl_pct": -23.1,
       "class": "Options"
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 83,
-      "pl_pct": -19.4,
+      "value": 81,
+      "pl_pct": -21.4,
       "class": "Options"
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 65,
-      "pl_pct": -24.4,
+      "value": 60,
+      "pl_pct": -30.2,
       "class": "Options"
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 33,
-      "pl_pct": -50.0,
+      "value": 34,
+      "pl_pct": -52.8,
       "class": "Options"
     },
     {
       "symbol": "Options \u00b7 protected",
       "value": 25,
-      "pl_pct": -19.4,
+      "pl_pct": -62.1,
       "class": "Options"
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 20,
-      "pl_pct": -33.3,
+      "value": 19,
+      "pl_pct": -36.7,
+      "class": "Options"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 13,
+      "pl_pct": -38.1,
+      "class": "Options"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 13,
+      "pl_pct": -13.3,
       "class": "Options"
     },
     {
@@ -131,15 +143,21 @@
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 10,
-      "pl_pct": -58.3,
+      "value": 8,
+      "pl_pct": -66.7,
       "class": "Options"
     },
     {
       "symbol": "XLI",
       "value": 0,
-      "pl_pct": -1.9,
+      "pl_pct": -1.6,
       "class": "Sectors"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 0,
+      "pl_pct": -100.0,
+      "class": "Options"
     },
     {
       "symbol": "Options \u00b7 protected",
@@ -155,15 +173,9 @@
     }
   ],
   "pending": {
-    "count": 1,
-    "notional": 1980,
-    "orders": [
-      {
-        "symbol": "XLK",
-        "side": "sell",
-        "notional": 1980
-      }
-    ]
+    "count": 0,
+    "notional": 0,
+    "orders": []
   },
   "roster": [
     {
@@ -202,6 +214,6 @@
       "status": "Reserve"
     }
   ],
-  "engine_build": "v1.27",
+  "engine_build": "v1.37",
   "self_tuning": true
 }

@@ -1,17 +1,17 @@
 {
-  "updated": "2026-07-13T21:00:50.419228+00:00",
+  "updated": "2026-07-14T21:01:25.395087+00:00",
   "mode": "LIVE-PAPER",
-  "equity": 9993.96,
-  "cash": 9987.96,
-  "invested": 6.0,
-  "day_pl": -6.040000000000873,
-  "notional": 9993.96,
+  "equity": 9969.67,
+  "cash": 948.62,
+  "invested": 9021.05,
+  "day_pl": -28.25,
+  "notional": 9970.66,
   "regime_label": "CALM UPTREND",
   "regime_note": "Low volatility, steady advance.",
   "regime_color": "#2ea043",
   "vix": 17.2,
   "market_open": false,
-  "next_open": "2026-07-14T09:30:00-04:00",
+  "next_open": "2026-07-15T09:30:00-04:00",
   "posture": {
     "Core \u00b7 Growth": 0.5,
     "Satellite \u00b7 Fighters": 0.1,
@@ -20,17 +20,71 @@
   },
   "positions": [
     {
+      "class": "Equity index",
+      "value": 4969,
+      "count": 1,
+      "pl_pct": 0.2
+    },
+    {
+      "class": "Bonds & credit",
+      "value": 2246,
+      "count": 1,
+      "pl_pct": -0.1
+    },
+    {
+      "class": "Commodities",
+      "value": 1794,
+      "count": 1,
+      "pl_pct": -0.7
+    },
+    {
       "class": "Other",
-      "value": 6,
-      "count": 2,
-      "pl_pct": -37.1
+      "value": 12,
+      "count": 6,
+      "pl_pct": -46.1
     }
   ],
   "holdings": [
     {
+      "symbol": "SPY",
+      "value": 4969,
+      "pl_pct": 0.2,
+      "class": "Equity index"
+    },
+    {
+      "symbol": "IEF",
+      "value": 2246,
+      "pl_pct": -0.1,
+      "class": "Bonds & credit"
+    },
+    {
+      "symbol": "GLD",
+      "value": 1794,
+      "pl_pct": -0.7,
+      "class": "Commodities"
+    },
+    {
       "symbol": "Options \u00b7 protected",
-      "value": 5,
-      "pl_pct": -28.6,
+      "value": 4,
+      "pl_pct": -20.0,
+      "class": "Options"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 3,
+      "pl_pct": -50.0,
+      "class": "Options"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 2,
+      "pl_pct": -50.0,
+      "class": "Options"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 2,
+      "pl_pct": -71.4,
       "class": "Options"
     },
     {
@@ -38,28 +92,18 @@
       "value": 1,
       "pl_pct": -80.0,
       "class": "Options"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 0,
+      "pl_pct": -100.0,
+      "class": "Options"
     }
   ],
   "pending": {
-    "count": 3,
-    "notional": 9014,
-    "orders": [
-      {
-        "symbol": "SPY",
-        "side": "buy",
-        "notional": 4960
-      },
-      {
-        "symbol": "IEF",
-        "side": "buy",
-        "notional": 2249
-      },
-      {
-        "symbol": "GLD",
-        "side": "buy",
-        "notional": 1806
-      }
-    ]
+    "count": 0,
+    "notional": 0,
+    "orders": []
   },
   "roster": [
     {

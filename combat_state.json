@@ -1,17 +1,17 @@
 {
-  "updated": "2026-07-15T21:00:57.555064+00:00",
+  "updated": "2026-07-16T21:00:18.756690+00:00",
   "mode": "LIVE-PAPER",
-  "equity": 9987.58,
-  "cash": 931.45,
-  "invested": 9056.13,
-  "day_pl": -8.290086649429213,
-  "notional": 9987.57,
+  "equity": 9919.44,
+  "cash": 929.36,
+  "invested": 8990.08,
+  "day_pl": -135.46536114626906,
+  "notional": 9919.44,
   "regime_label": "CALM UPTREND",
   "regime_note": "Low volatility, steady advance.",
   "regime_color": "#2ea043",
-  "vix": 17.2,
+  "vix": 16.7,
   "market_open": false,
-  "next_open": "2026-07-16T09:30:00-04:00",
+  "next_open": "2026-07-17T09:30:00-04:00",
   "posture": {
     "Core \u00b7 Growth": 0.5,
     "Satellite \u00b7 Fighters": 0.1,
@@ -21,9 +21,9 @@
   "positions": [
     {
       "class": "Equity index",
-      "value": 4988,
+      "value": 4958,
       "count": 1,
-      "pl_pct": 0.6
+      "pl_pct": -0.0
     },
     {
       "class": "Bonds & credit",
@@ -33,22 +33,22 @@
     },
     {
       "class": "Commodities",
-      "value": 1797,
+      "value": 1759,
       "count": 1,
-      "pl_pct": -0.5
+      "pl_pct": -2.6
     },
     {
       "class": "Other",
-      "value": 19,
+      "value": 21,
       "count": 10,
-      "pl_pct": -51.1
+      "pl_pct": -32.4
     }
   ],
   "holdings": [
     {
       "symbol": "SPY",
-      "value": 4988,
-      "pl_pct": 0.6,
+      "value": 4958,
+      "pl_pct": -0.0,
       "class": "Equity index"
     },
     {
@@ -59,26 +59,26 @@
     },
     {
       "symbol": "GLD",
-      "value": 1797,
-      "pl_pct": -0.5,
+      "value": 1759,
+      "pl_pct": -2.6,
       "class": "Commodities"
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 3,
-      "pl_pct": -25.0,
+      "value": 5,
+      "pl_pct": -16.7,
       "class": "Options"
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 3,
-      "pl_pct": -50.0,
+      "value": 5,
+      "pl_pct": -28.6,
       "class": "Options"
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 3,
-      "pl_pct": -57.1,
+      "value": 4,
+      "pl_pct": -33.3,
       "class": "Options"
     },
     {
@@ -96,25 +96,25 @@
     {
       "symbol": "Options \u00b7 protected",
       "value": 2,
-      "pl_pct": -66.7,
+      "pl_pct": -50.0,
       "class": "Options"
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 1,
-      "pl_pct": -75.0,
+      "value": 0,
+      "pl_pct": -100.0,
       "class": "Options"
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 1,
-      "pl_pct": -80.0,
+      "value": 0,
+      "pl_pct": -100.0,
       "class": "Options"
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 1,
-      "pl_pct": -66.7,
+      "value": 0,
+      "pl_pct": -100.0,
       "class": "Options"
     },
     {

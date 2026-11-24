@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-23T20:00:24.550493+00:00",
+  "updated": "2026-11-24T20:00:20.954301+00:00",
   "mode": "LIVE-PAPER",
-  "equity": 6426.89,
-  "cash": -995.85,
-  "invested": 7422.740000000001,
-  "day_pl": -509.93682493124925,
-  "notional": 6426.72,
+  "equity": 6175.35,
+  "cash": -1431.23,
+  "invested": 7606.58,
+  "day_pl": -949.3437802660201,
+  "notional": 6175.38,
   "regime_label": "RISK-OFF",
   "regime_note": "Elevated stress \u2014 defensive posture.",
   "regime_color": "#f85149",
-  "vix": 27.5,
+  "vix": 26.8,
   "market_open": true,
-  "next_open": "2026-11-24T09:30:00-05:00",
+  "next_open": "2026-11-25T09:30:00-05:00",
   "posture": {
     "Core \u00b7 Growth": 0.5,
     "Satellite \u00b7 Fighters": 0.1,
@@ -21,64 +21,64 @@
   "positions": [
     {
       "class": "Equity index",
-      "value": 3248,
+      "value": 3217,
       "count": 1,
-      "pl_pct": -4.2
+      "pl_pct": -5.2
     },
     {
       "class": "Bonds & credit",
-      "value": 1695,
+      "value": 1697,
       "count": 2,
-      "pl_pct": -0.4
-    },
-    {
-      "class": "Commodities",
-      "value": 1236,
-      "count": 1,
-      "pl_pct": -10.7
+      "pl_pct": -0.3
     },
     {
       "class": "Other",
-      "value": 1098,
-      "count": 28,
-      "pl_pct": -42.4
+      "value": 1343,
+      "count": 30,
+      "pl_pct": -36.3
+    },
+    {
+      "class": "Commodities",
+      "value": 1206,
+      "count": 1,
+      "pl_pct": -12.9
     },
     {
       "class": "FX",
       "value": 145,
       "count": 1,
-      "pl_pct": 0.5
+      "pl_pct": 0.0
     }
   ],
   "holdings": [
     {
       "symbol": "SPY",
-      "value": 3248,
-      "pl_pct": -4.2,
+      "value": 3217,
+      "pl_pct": -5.2,
       "class": "Equity index"
     },
     {
       "symbol": "IEF",
-      "value": 1393,
-      "pl_pct": -0.4,
+      "value": 1395,
+      "pl_pct": -0.3,
       "class": "Bonds & credit"
     },
     {
       "symbol": "GLD",
-      "value": 1236,
-      "pl_pct": -10.7,
+      "value": 1206,
+      "pl_pct": -12.9,
       "class": "Commodities"
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 364,
-      "pl_pct": -42.6,
+      "value": 462,
+      "pl_pct": -27.1,
       "class": "Options"
     },
     {
       "symbol": "HYG",
       "value": 302,
-      "pl_pct": -0.1,
+      "pl_pct": -0.2,
       "class": "Bonds & credit"
     },
     {
@@ -89,26 +89,38 @@
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 200,
-      "pl_pct": -16.7,
-      "class": "Options"
-    },
-    {
-      "symbol": "Options \u00b7 protected",
-      "value": 160,
-      "pl_pct": -11.1,
+      "value": 220,
+      "pl_pct": -8.3,
       "class": "Options"
     },
     {
       "symbol": "UUP",
       "value": 145,
-      "pl_pct": 0.5,
+      "pl_pct": 0.0,
       "class": "FX"
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 80,
-      "pl_pct": -55.6,
+      "value": 140,
+      "pl_pct": -22.2,
+      "class": "Options"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 120,
+      "pl_pct": -33.3,
+      "class": "Options"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 75,
+      "pl_pct": -50.0,
+      "class": "Options"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 20,
+      "pl_pct": -86.7,
       "class": "Options"
     },
     {
@@ -119,14 +131,20 @@
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 6,
-      "pl_pct": -71.4,
+      "value": 8,
+      "pl_pct": 60.0,
       "class": "Options"
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 4,
-      "pl_pct": -20.0,
+      "value": 6,
+      "pl_pct": -97.1,
+      "class": "Options"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 5,
+      "pl_pct": -83.3,
       "class": "Options"
     },
     {
@@ -143,6 +161,12 @@
     },
     {
       "symbol": "Options \u00b7 protected",
+      "value": 3,
+      "pl_pct": -85.7,
+      "class": "Options"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
       "value": 2,
       "pl_pct": -93.3,
       "class": "Options"
@@ -151,18 +175,6 @@
       "symbol": "Options \u00b7 protected",
       "value": 1,
       "pl_pct": -66.7,
-      "class": "Options"
-    },
-    {
-      "symbol": "Options \u00b7 protected",
-      "value": 0,
-      "pl_pct": -100.0,
-      "class": "Options"
-    },
-    {
-      "symbol": "Options \u00b7 protected",
-      "value": 0,
-      "pl_pct": -100.0,
       "class": "Options"
     },
     {

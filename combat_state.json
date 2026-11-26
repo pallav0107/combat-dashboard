@@ -1,16 +1,16 @@
 {
-  "updated": "2026-11-25T20:00:19.053126+00:00",
+  "updated": "2026-11-26T20:01:52.443302+00:00",
   "mode": "LIVE-PAPER",
-  "equity": 5848.46,
-  "cash": -1144.45,
-  "invested": 6992.91,
-  "day_pl": -1316.7300493533103,
+  "equity": 5864.73,
+  "cash": -1145.01,
+  "invested": 7009.74,
+  "day_pl": -1186.9960437305908,
   "notional": 5848.3,
   "regime_label": "RISK-OFF",
   "regime_note": "Elevated stress \u2014 defensive posture.",
   "regime_color": "#f85149",
   "vix": 28.1,
-  "market_open": true,
+  "market_open": false,
   "next_open": "2026-11-27T09:30:00-05:00",
   "posture": {
     "Core \u00b7 Growth": 0.5,
@@ -21,27 +21,27 @@
   "positions": [
     {
       "class": "Equity index",
-      "value": 2937,
+      "value": 2940,
       "count": 1,
-      "pl_pct": -5.2
+      "pl_pct": -5.0
     },
     {
       "class": "Bonds & credit",
-      "value": 1703,
+      "value": 1701,
       "count": 2,
-      "pl_pct": 0.1
+      "pl_pct": -0.0
     },
     {
       "class": "Other",
-      "value": 1189,
+      "value": 1197,
       "count": 31,
-      "pl_pct": -42.6
+      "pl_pct": -33.7
     },
     {
       "class": "Commodities",
-      "value": 1020,
+      "value": 1027,
       "count": 1,
-      "pl_pct": -13.0
+      "pl_pct": -12.7
     },
     {
       "class": "FX",
@@ -53,44 +53,44 @@
   "holdings": [
     {
       "symbol": "SPY",
-      "value": 2937,
-      "pl_pct": -5.2,
+      "value": 2940,
+      "pl_pct": -5.0,
       "class": "Equity index"
     },
     {
       "symbol": "IEF",
-      "value": 1401,
-      "pl_pct": 0.1,
+      "value": 1399,
+      "pl_pct": 0.0,
       "class": "Bonds & credit"
     },
     {
       "symbol": "GLD",
-      "value": 1020,
-      "pl_pct": -13.0,
+      "value": 1027,
+      "pl_pct": -12.7,
       "class": "Commodities"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 308,
+      "pl_pct": -51.4,
+      "class": "Options"
     },
     {
       "symbol": "HYG",
       "value": 302,
-      "pl_pct": -0.1,
+      "pl_pct": -0.2,
       "class": "Bonds & credit"
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 294,
-      "pl_pct": -53.6,
+      "value": 300,
+      "pl_pct": 25.0,
       "class": "Options"
     },
     {
       "symbol": "Options \u00b7 protected",
       "value": 264,
       "pl_pct": -75.6,
-      "class": "Options"
-    },
-    {
-      "symbol": "Options \u00b7 protected",
-      "value": 240,
-      "pl_pct": 0.0,
       "class": "Options"
     },
     {
@@ -113,26 +113,20 @@
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 70,
-      "pl_pct": -53.3,
+      "value": 30,
+      "pl_pct": -80.0,
       "class": "Options"
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 36,
-      "pl_pct": -76.0,
+      "value": 15,
+      "pl_pct": -90.0,
       "class": "Options"
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 12,
-      "pl_pct": -42.9,
-      "class": "Options"
-    },
-    {
-      "symbol": "Options \u00b7 protected",
-      "value": 6,
-      "pl_pct": -71.4,
+      "value": 9,
+      "pl_pct": -57.1,
       "class": "Options"
     },
     {
@@ -143,14 +137,20 @@
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 4,
-      "pl_pct": -20.0,
+      "value": 6,
+      "pl_pct": -91.7,
       "class": "Options"
     },
     {
       "symbol": "Options \u00b7 protected",
       "value": 4,
-      "pl_pct": -94.4,
+      "pl_pct": -86.7,
+      "class": "Options"
+    },
+    {
+      "symbol": "Options \u00b7 protected",
+      "value": 4,
+      "pl_pct": -20.0,
       "class": "Options"
     },
     {
@@ -161,8 +161,8 @@
     },
     {
       "symbol": "Options \u00b7 protected",
-      "value": 2,
-      "pl_pct": -93.3,
+      "value": 0,
+      "pl_pct": -100.0,
       "class": "Options"
     },
     {
@@ -269,9 +269,20 @@
     }
   ],
   "pending": {
-    "count": 0,
+    "count": 2,
     "notional": 0,
-    "orders": []
+    "orders": [
+      {
+        "symbol": "Options \u00b7 protected",
+        "side": "buy",
+        "notional": 0
+      },
+      {
+        "symbol": "Options \u00b7 protected",
+        "side": "buy",
+        "notional": 0
+      }
+    ]
   },
   "roster": [
     {
